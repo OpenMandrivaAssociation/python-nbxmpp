@@ -12,6 +12,8 @@ Source0:        https://pypi.io/packages/source/n/nbxmpp/%{srcname}-%{version}.t
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
 
+Requires:       python3dist(precis-i18n)
+
 %{?python_provide:%python_provide python3-%{srcname}}
 
 BuildArch:      noarch
