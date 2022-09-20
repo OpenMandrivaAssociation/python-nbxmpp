@@ -1,7 +1,7 @@
 %global srcname nbxmpp
 
 Name:           python-%{srcname}
-Version:        3.0.2
+Version:        3.2.2
 Release:        1
 Summary:        Non blocking Jabber/XMPP module
 Group:          Development/Python
