@@ -2,7 +2,7 @@
 
 Name:           python-%{srcname}
 Version:        3.2.2
-Release:        2
+Release:        3
 Summary:        Non blocking Jabber/XMPP module
 Group:          Development/Python
 License:        MIT
