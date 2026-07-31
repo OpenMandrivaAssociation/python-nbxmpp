@@ -1,8 +1,8 @@
 %global srcname nbxmpp
 
 Name:           python-%{srcname}
-Version:        3.2.2
-Release:        4
+Version:        7.3.0
+Release:        1
 Summary:        Non blocking Jabber/XMPP module
 Group:          Development/Python
 License:        MIT
@@ -24,7 +24,7 @@ to use Jabber/XMPP networks in a non-blocking way. This library is initialy
 a fork of xmpppy one, but using non-blocking sockets.
 
 %prep
-%setup -q -n %{srcname}-%{version}
+%setup -q -n nbxmpp-7.3.0
 
 %build
 %py_build
